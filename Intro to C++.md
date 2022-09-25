@@ -21,11 +21,12 @@ C++ is used to code many different things including but not limited to Internet 
 
 Some projects that C++ was used for are:
 
-MySQL server
-Adobe Photoshop and Adobe Illustrator
-Google Chrome Browser
-Maya (3D software used for animation and other graphics)
-Mozilla Firefox
+MySQL server,
+Adobe Photoshop,
+Adobe Illustrator,
+Google Chrome Browser,
+Maya (3D software used for animation and other graphics),
+and Mozilla Firefox
 
 
 >Where will you get information about this language when it's time to start programming in it? At the end of your assignment, provide a list of the names of books, website URLs, or any other resources that relate to your language in particular.
