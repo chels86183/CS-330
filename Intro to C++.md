@@ -35,6 +35,7 @@ and Mozilla Firefox
 Some of the resources that I will use will include: 
 
 https://www.youtube.com/watch?v=ZzaPdXTrSb8
+and 
 https://www.youtube.com/watch?v=McojvctVsUs
 
 
