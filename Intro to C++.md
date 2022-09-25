@@ -1,5 +1,5 @@
 # Programming Language Project
-for CS 330: Structure and Organization of Programming Language
+for CS 330: Structure and Organization of Programming Language assignment 1
 
 
 ## The History behind C++
