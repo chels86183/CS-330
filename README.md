@@ -75,3 +75,16 @@ explicit, extern, false, float, for, friend, goto, inline, int, const-cast, long
 - Variables cannot have spaces or special characters like !, @, $, &, etc.
 - Numbers can be a part of a variable as long as they are not at the beginning (hello1 is fine)
 
+##Naming conventions
+Data types must be defined since C++ is an explicit statically typed programming language. It is strongly typed, which a compiler enforces. By doing this, you can make sure that you are not trying to combine a sentence with a number. If the "mutable" keyword is not used before the variable assignment, C++ variables are not mutable. This enables you to modify the variable's value in the future.
+
+##Booleans
+Boolean values can be represented in coding by using true or false. They are, however, registered as 0 and 1.
+Below gives you an example:
+#Chelsea remember to add the code example 
+
+##Conditional Statements
+There aren't many different conditional statements available in C++. There are IF statements that can operate independently. IF/ELSE statements are required since ELSE cannot stand alone. ELSE IF statements, which are sandwiched between the IF and ELSE statements and can't be used alone. Finally, there is a SWITCH statement, which performs the same job as the Java switch statement by condensing various conditions and outcomes into a single unit.
+
+
+
