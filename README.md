@@ -148,7 +148,7 @@ x || y  → statement is true
 If first statement is true in an or statement, the if reads as true since only 1 statement needs to be true for the entire logical expression to classify as true
 
 
-## Notes about Switch statments in C++
+#### Note about Switch statments in C++
 Switch statements in C++ do require "break" keywords after each case. This will tell the program that if a case is true, then do not test the other ones. Continue keywords are to not be used in C++ switch statments.
 
 ## Loops in C++
@@ -240,7 +240,7 @@ int main()
 
 ```
 
-Note:
+#### Note:
 An infinite loop, sometimes known as an endless loop, is a code that never ends since it has no functional exit. When a condition is consistently found to be true, an infinite loop results. Typically, this is a mistake.
 
 
