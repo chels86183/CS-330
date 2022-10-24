@@ -147,12 +147,101 @@ x || y  → statement is true
   
 If first statement is true in an or statement, the if reads as true since only 1 statement needs to be true for the entire logical expression to classify as true
 
-##Talk about delimtiers in conditions
-
 
 ## Notes about Switch statments in C++
 Switch statements in C++ do require "break" keywords after each case. This will tell the program that if a case is true, then do not test the other ones. Continue keywords are to not be used in C++ switch statments.
 
+## Loops in C++
+Note: all information about loop were taken from *https://www.geeksforgeeks.org/cpp-loops/*
+In C++ there are 2 differnt types of loops that can be implemented. 
+
+1. Entry Controlled 
+   - This is when the condtion is being tested at the beginning or the "entry" point of the code, meanig that the condtion must be passed before continuing
+   - For loops and While loops are great examples 
+2. Exit Controlled 
+   - This is the opposite of Entry controlled, where the loop will be fullly excuted first then at the end or "exit" point of the code the condition is tested.
+   - A do-while loop is a great example of Exit Controlled loop
+
+Overall , you will see that the differnt types of loops, for, while, and do-while all use the same three statements – initialization expression, test expression, and update expression but what mainly differs betweem the 3 loops is the placement of the three statments are differnt.
+
+### For Loops
+As discussed above For Loops is an Entry Conrolled loop. The repetition control structure known as a "for loop" enables us to create a loop that runs a certain number of times. The loop permits us to carry out n stages simultaneously in a single line.
+It firstly initializes the loop counter, then it does a condition check, once the check is done and is true it will execute the body, and then it updates the loop counter by n value. Once the check becomes false the loop will stop.
+
+Below is an example code:
+
+```
+
+#include <iostream>
+using namespace std;
+  
+int main()
+{
+    for (int i = 1; i <= 5; i++) {
+        cout << "Hello World\n";
+    }
+  
+    return 0;
+}
+
+```
+
+If you were to run this code Hello world would be outputed 5 times.
+
+### While Loops
+
+While loops are used in cases where we do not know the precise number of loop iterations in advance, unlike for loops where the number of iterations is known prior to running the code. Depending on the results of the test condtions, the loop execution is stopped.
+
+```
+#include <iostream>
+using namespace std;
+  
+int main()
+{
+    // initialization expression
+    int i = 1;
+  
+    // test expression
+    while (i < 6) {
+        cout << "Hello World\n";
+  
+        // update expression
+        i++;
+    }
+  
+    return 0;
+}
+
+```
+
+### Do-While Loops
+Do-while loops also stop their execution based on the results of their test conditions. The main distinction between a do-while loop and a while loop is that the condition is verified in a do-while loop at the end of the loop body.
+
+```
+
+#include <iostream>
+using namespace std;
+  
+int main()
+{
+    int i = 2; // Initialization expression
+  
+    do {
+        // loop body
+        cout << "Hello World\n";
+  
+        // update expression
+        i++;
+  
+    } while (i < 1); // test expression
+  
+    return 0;
+}
+
+```
+
+Note:
+An infinite loop, sometimes known as an endless loop, is a code that never ends since it has no functional exit. When a condition is consistently found to be true, an infinite loop results. Typically, this is a mistake.
 
 
 
