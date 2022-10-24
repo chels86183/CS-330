@@ -84,17 +84,51 @@ In C++ boolean is a data type that contains two values ex: 0,1
 The nature of booleans in C++ are ints. For example, False is not “FALSE” but rather it is a number 0.  
 True is also represented as an int, in this case 1. 
 
-Below gives you an example:
-#Chelsea remember to add the code example 
+```
+
+#include <stdio.h>
+#include <stdbool.h>
+
+int main()
+{
+bool x = true;
+printf("%d", x);//prints 1
+}
+
+```
+
+```
+
+#include <stdio.h>
+#include <stdbool.h>
+
+int main()
+{
+bool x = false;
+printf("%d", x);//prints 0
+}
+
+```
 
 ## Conditional Statements
 There aren't many different conditional statements available in C++. There are IF statements that can operate independently. IF/ELSE statements are required since ELSE cannot stand alone. ELSE IF statements, which are sandwiched between the IF and ELSE statements and can't be used alone. Finally, there is a SWITCH statement, which performs the same job as the Java switch statement by condensing various conditions and outcomes into a single unit.
 Below is an example:
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
+
+  if (test - expression 1) {
+    statment1;
+} else if (test - expression 2){
+    statment2;
+} else if (test - expression 3){
+    statment3;
+} else if (test - expression n){
+    statmentn;
+} else{
+    default:
 }
+Statement x;
+
 ```
 
 ##Talk about delimtiers in conditions 
@@ -112,6 +146,13 @@ x = 1, y = 0
 x || y  → statement is true
   
 If first statement is true in an or statement, the if reads as true since only 1 statement needs to be true for the entire logical expression to classify as true
+
+##Talk about delimtiers in conditions
+
+
+## Notes about Switch statments in C++
+Switch statements in C++ do require "break" keywords after each case. This will tell the program that if a case is true, then do not test the other ones. Continue keywords are to not be used in C++ switch statments.
+
 
 
 
