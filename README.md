@@ -153,6 +153,7 @@ Switch statements in C++ do require "break" keywords after each case. This will 
 
 ## Loops in C++
 Note: all information about loop were taken from *https://www.geeksforgeeks.org/cpp-loops/*
+
 In C++ there are 2 differnt types of loops that can be implemented. 
 
 1. Entry Controlled 
