@@ -244,5 +244,25 @@ int main()
 ### Note:
 An infinite loop, sometimes known as an endless loop, is a code that never ends since it has no functional exit. When a condition is consistently found to be true, an infinite loop results. Typically, this is a mistake.
 
+##Classes
+You can create classes in C++, which store objects.
 
+For example, you can create a Person class, and have an object which is a specific person, with all of the attributes that make a person a person.
+
+Classes are usually written with an Uppercase letter, and camelCase or lowercase objects.
+
+Classes must be instantiated with the security level of the class (i.e., private or public):
+
+```
+
+#include <iostream>
+using namespace std;
+  
+class planet {
+  public:
+};
+
+```
+##Inheritance 
+Inheritance is when you have a class that inherits code and/or variables from another class. We call the class that inherits the other class the child, and the inherited class the parent.
 
