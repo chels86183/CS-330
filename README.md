@@ -131,7 +131,10 @@ Statement x;
 
 ```
 
-##Talk about delimtiers in conditions 
+##Delimtiers in conditions 
+Paretheses enclose conditions. The example below demonstrates this, where (firstCondition is true) and (secondCondition is true). The outcome is enclosed in curly brackets after the condition. "First Condition True" will be displayed if the first condition is true. Before the subsequent otherwise if or else statement starts, the curly braces come to an end. This pattern would continue with any more if statements.
+
+
 ## Short- Circut 
 C++ does use short circuting evaluation. 
 
