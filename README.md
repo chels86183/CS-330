@@ -266,6 +266,6 @@ class planet {
 };
 
 ```
-##Inheritance 
+## Inheritance 
 Inheritance is when you have a class that inherits code and/or variables from another class. We call the class that inherits the other class the child, and the inherited class the parent.
 
