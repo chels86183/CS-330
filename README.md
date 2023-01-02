@@ -247,7 +247,7 @@ int main()
 ### Note:
 An infinite loop, sometimes known as an endless loop, is a code that never ends since it has no functional exit. When a condition is consistently found to be true, an infinite loop results. Typically, this is a mistake.
 
-##Classes
+## Classes
 You can create classes in C++, which store objects.
 
 For example, you can create a Person class, and have an object which is a specific person, with all of the attributes that make a person a person.
@@ -269,3 +269,15 @@ class planet {
 ## Inheritance 
 Inheritance is when you have a class that inherits code and/or variables from another class. We call the class that inherits the other class the child, and the inherited class the parent.
 
+```
+ class Student: public Person  { // this inherits from Person class 
+ public: 
+   string major; 
+   
+   void info() { 
+     cout << name << " is a " << major << " major.\n"; 
+   } 
+ }; 
+
+
+```
