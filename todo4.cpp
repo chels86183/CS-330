@@ -29,12 +29,12 @@ public:
 int main() {
     cout << "------------------Welcome to the ToDo List manager!---------------------"<< endl;
     cout << "Here you can add all your assingments and appointments or other important things "<< endl;
-    cout << "all of the task you add will automatically be given a random ID number, this makes its easier for you to idenfity "<< endl;
+    cout << "all of the task you add will automatically be given an ID number, this makes its easier for you to idenfity "<< endl;
     cout << endl << endl;
     cout << "Please enter your name:";
     string name;
     cin >> name;
-    cout << "----Welcome " << name<< " to you very own todo list manager----";
+    cout << "----Welcome " << name<< " to your very own todo list manager----";
     char input_option;
     int input_id;
     string input_description;
@@ -50,7 +50,7 @@ int main() {
         }
 
         if (todoItems.empty()) {
-            cout << "Your list is empty, Add your first task!" << endl;
+            cout << "Your list is empty, please click 1 to add your first task!" << endl;
         }
 
         cout << endl << endl;
@@ -74,7 +74,7 @@ int main() {
             i++;
         }
         else if (input_option == '1') {
-            cout << "Add a new description(format: task mame, class, prof name): ";
+            cout << "Add a new description of your task(format: task name, class, prof name): ";
             cin.clear();
             cin.ignore();
             getline(cin, input_description);
